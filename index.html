@@ -310,6 +310,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#interactive-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎮 Interactive Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supported-systems" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -427,6 +438,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#interactive-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎮 Interactive Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supported-systems" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -528,6 +550,15 @@ theme = {
 # Animate
 physanim.animate(pendulum, theme=theme)
 </code></pre>
+<h2 id="interactive-mode">🎮 Interactive Mode</h2>
+<p>PhysAnim supports real-time parameter tuning within Jupyter Notebooks using <code>interact()</code>.</p>
+<pre><code class="language-python">from physanim import interact
+from physanim.systems import DoublePendulum
+
+# Create sliders for gravity, length, and masses
+interact(DoublePendulum, g=(9.0, 10.0), L1=(0.5, 2.0), m1=(1.0, 5.0))
+</code></pre>
+<p>Note: Requires <code>pip install physanim[interactive]</code> and a Jupyter environment.</p>
 <h2 id="supported-systems">Supported Systems</h2>
 <ul>
 <li><code>DoublePendulum</code>: Chaotic double pendulum.</li>
