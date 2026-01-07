@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "physanim"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Ayush Kumar Jha", email="jhaayushkumar@gmail.com" },
 ]
@@ -21,6 +21,9 @@ dependencies = [
     "matplotlib",
     "scipy"
 ]
+
+[project.optional-dependencies]
+interactive = ["ipywidgets", "ipympl"]
 
 [project.urls]
 "Homepage" = "https://github.com/yourusername/physanim"
