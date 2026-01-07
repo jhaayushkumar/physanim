@@ -60,3 +60,7 @@ Note: Requires `pip install physanim[interactive]` and a Jupyter environment.
 
 ### Planetary Orbit (Three-Body)
 ![Planetary System](assets/demo_planets.gif)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/jhaayushkumar/physanim/blob/main/LICENSE) file for details.
