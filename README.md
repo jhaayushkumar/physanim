@@ -35,3 +35,6 @@ interact(DoublePendulum, L1=(0.5, 3.0), m1=(1.0, 5.0))
 ## Links
 - **Docs**: [https://jhaayushkumar.github.io/physanim/](https://jhaayushkumar.github.io/physanim/)
 - **PyPI**: [https://pypi.org/project/physanim/](https://pypi.org/project/physanim/)
+
+## License
+MIT [LICENSE](LICENSE)
