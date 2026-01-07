@@ -36,3 +36,14 @@ physanim.animate(pendulum, theme=theme)
 - `DoublePendulum`: Chaotic double pendulum.
 - `SpringMass`: Simple harmonic oscillator.
 - `PlanetarySystem`: N-body orbital simulation.
+
+## Examples
+
+### Cyberpunk Double Pendulum
+![Double Pendulum](assets/demo_cyberpunk.gif)
+
+### Spring Mass System
+![Spring Mass](assets/demo_spring.gif)
+
+### Planetary Orbit (Three-Body)
+![Planetary System](assets/demo_planets.gif)
