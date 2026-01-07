@@ -31,6 +31,19 @@ theme = {
 physanim.animate(pendulum, theme=theme)
 ```
 
+## 🎮 Interactive Mode
+
+PhysAnim supports real-time parameter tuning within Jupyter Notebooks using `interact()`.
+
+```python
+from physanim import interact
+from physanim.systems import DoublePendulum
+
+# Create sliders for gravity, length, and masses
+interact(DoublePendulum, g=(9.0, 10.0), L1=(0.5, 2.0), m1=(1.0, 5.0))
+```
+Note: Requires `pip install physanim[interactive]` and a Jupyter environment.
+
 ## Supported Systems
 
 - `DoublePendulum`: Chaotic double pendulum.
